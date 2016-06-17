@@ -31,7 +31,7 @@ var Hello = React.createClass({
 				<ReactCSSTransitionGroup transitionName="example" 
 					transitionAppear={true} 
 					transitionAppearTimeout={500}
-					transitionEnterTimeout={500}
+					transitionEnterTimeout={600}
 					transitionLeaveTimeout={0.1}>
 					{content}
 				</ReactCSSTransitionGroup>

@@ -14,8 +14,8 @@
 
 .example-enter.example-enter-active {
   opacity: 1;
-  -webkit-transition: opacity 500ms;
-  transition: opacity 500ms;
+  -webkit-transition: opacity 500ms 10ms;
+  transition: opacity 500ms 10ms;
 }
 
 .example-leave {
@@ -24,6 +24,6 @@
 
 .example-leave.example-leave-active {
   opacity: 0;
-  -webkit-transition: opacity 0.1ms;
-  transition: opacity 0.1ms;
+  -webkit-transition: opacity 0.01ms;
+  transition: opacity 0.01ms;
 }
